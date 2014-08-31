@@ -1,0 +1,153 @@
+@media screen and (max-width:500px){
+
+	/*positioning top logo*/
+.positionLogo {
+	width:25%; 
+	height:13%;
+	margin:1.5% 0 2.3% 2.3%;
+}
+
+
+	/*******************************************
+				shrink Navigation
+	*******************************************/
+	/*adjust navigation links*/
+	#mainNav li {
+		width: auto;
+		display: inline-block;
+		float:right;
+		margin:1% 1% 1% 0;
+	}
+
+
+	/*******************************************
+				shrink Navigation
+	*******************************************/
+	/*adjust overwrite header and image*/
+	/*overwrite on header*/
+	#overWrite{
+		display: inline-block;
+		width: 40%;
+		margin-left:10px;
+/*	margin-top: 10px;*/
+	}
+	#overWrite img{
+		max-width: 75%;
+	}
+
+	#seekerImg{
+		margin-top: -3%;
+		margin-right:8%;
+		width:auto;
+	}
+
+	#postJob {
+		width:150px;
+		height:40px;
+	}
+	/*adjust over text*/
+	.container{
+		width: 85%;
+	}
+
+	.over h1{
+		font-size: 1em;
+		color: #fff;
+	}
+	.over li{
+		font-size: 0.7em;
+	}
+
+	/*******************************************
+				section How it works
+	*******************************************/
+	/*adjust the contact icon to clear and b on a new line*/
+	#section h1{
+		width: 50%;
+		font-size: 1.5em;
+	}
+	#gallery li img{
+	max-width:75%;
+	text-align: center;
+	}
+	 #gallery li p{
+ 	font-family:'Arimo', sans-serif;
+ 	text-align: center; 
+ 	font-size: .7em;
+ 	}
+
+ #gallery li{
+ 	width: 10%;
+ 	margin: 0 1.5% 0 1.5%;
+ 	padding: 0 0 0px 10px;
+ 	/*color: #bdc3c7;*/
+ }
+ 	#gallery div {
+ 	width:10%;
+ 	padding-top: 2%
+ }
+
+	/*******************************************
+				sub-section looking for a job
+	*******************************************/
+	/*reduce the font size of looking for job and its button*/
+
+ #sub-section h1{
+	width: 50%;
+	font-size: 1.5em;
+	padding: 20px 0 20px 10px;
+ }
+ #sub-section p {
+ 	width: 75%;
+ 	line-height: 1em;
+  	font-size: 1em;
+ }
+
+  .ptn{
+  	width: 30%;
+  } 
+	/*Reduce the font size of our patners*/
+
+#patners h1{
+	width: 50%;
+	font-size: 1.5em;
+	padding: 10px 0 10px 10px;
+ }
+
+ #patnerLogo li{
+ 	display: inline-block;
+ 	float: left;
+ 	width: 10%;
+ 	margin:0 2% 0 2%;
+ 	background-color:#FFF;
+ 	padding-left:5%;
+ 	border: 1px solid #DFDFDF;
+
+ 	/*color: #bdc3c7;*/
+ }
+
+#patnerLogo li img{
+
+	max-width:75%;
+}
+
+#patnerLogo li:last-child{
+	padding-left: 7%;
+}
+
+#footer{
+/*	padding-left: 10px;*/
+	overflow: hidden;
+}
+
+	/*******************************************
+				section footer
+	*******************************************/
+#footer li {
+ 	margin:2%;
+ 	padding-left:1%;
+ 	font-family: 'Arimo', sans-serif;
+ 	font-size: 0.7em;
+}
+
+}

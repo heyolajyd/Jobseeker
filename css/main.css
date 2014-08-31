@@ -1,0 +1,108 @@
+/*******************************************
+				General Style
+*******************************************/
+body{
+	background:#fff;
+	color: #3f3f3f;
+}
+
+a {
+	text-decoration: none;
+	font-family:'Montserrat', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul{
+	margin: 0 auto;
+	list-style: none;
+}
+
+/*******************************************
+				Heading Style
+*******************************************/
+header {
+	display: block;
+/*	background-image:url(../img/headBackground.jpg) no-repeat top left;
+	background-size:100%;*/
+	width:100%;
+	min-height:200px;
+	
+/*	padding: 20px 50px 0 70px;*/
+}
+
+/*positioning top logo*/
+.positionLogo {
+	margin-top: 10px;
+	margin-left:80px;
+
+}
+
+#overWrite{
+
+	margin-left: 120px;
+	margin-top: 20px;
+}
+
+#overWrite h1 {
+	font-size: 42px;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 700;
+	color: #040404;
+	padding-bottom: 10px;
+
+}
+
+#overWrite li{
+	font-family: 'Arimo', sans-serif;
+	line-height: 1.5rem;
+	color:#040404;
+	font-weight: normal 400;
+	padding: 0px 0 10px; 
+}
+/*******************************************
+				navigation Style
+*******************************************/
+
+nav {
+	width: 50%;
+	float: right;
+	max-height:50px;
+	display: inline-block;
+	/*margin-right: 50px;*/
+}
+
+#mainNav{
+	display: inline-block;
+/*	padding-top: 20px;*/
+
+}
+
+#mainNav li a{
+	display: inline-block;
+	float: right;
+	color:#040404;
+	padding:5px;
+
+}
+
+nav li a:last-child{
+	margin-right: 70px;
+	margin-left: -20px;
+}
+
+
+
+/*headers positioning*/
+
+
+#postJob {
+	width:200px;
+	height:50px;
+	background: #208B0a;
+	color: #fff;
+	border: none;
+	font-size: 1em;
+}
